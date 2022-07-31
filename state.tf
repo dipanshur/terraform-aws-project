@@ -4,8 +4,8 @@ terraform {
         encrypt = true
         key = "terraform.tfstate"
         region = "us-east-2"
-        access_key = "AKIAZBM4KLN6QNJ2LLNZ"
-        secret_key = "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"
+        access_key = "AKIAZBM4KLN6WJFVJKQX"
+        secret_key = "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"
     }
 }
 
