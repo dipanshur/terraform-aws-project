@@ -1,0 +1,2 @@
+docker_cred = "arn:aws:secretsmanager:us-east-2:621487479677:secret:docker_cred-m0AN7U"
+codestar_cred = "arn:aws:codestar-connections:us-east-2:621487479677:connection/5e142431-c36d-4467-afa9-cee0fa881fe0"
