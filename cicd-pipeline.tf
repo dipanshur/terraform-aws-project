@@ -92,7 +92,7 @@ resource "aws_codebuild_project" "tf-plan" {
       category         = "Build"
       owner            = "AWS"
       provider         = "CodeBuild"
-      version          = "0.2"
+      version          = "1"
       input_artifacts = ["tf-code"]
 
       configuration = {
@@ -109,7 +109,7 @@ resource "aws_codebuild_project" "tf-plan" {
       category         = "Build"
       owner            = "AWS"
       provider         = "CodeBuild"
-      version          = "0.2"
+      version          = "1"
       input_artifacts = ["tf-code"]
 
       configuration = {
