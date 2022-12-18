@@ -2,7 +2,6 @@ version: 0.2
 phases: 
   pre_build: 
     commands: 
-      - aws sts get-caller-identity
       - terraform init
       - terraform validate
 
